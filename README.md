@@ -1,0 +1,10 @@
+# How To Replicate the FILIPINO WOMEN Local Repo
+navigate to [filipino women github local repo](https://github.com/afafilo/filipino-women.com) and select local branch
+install husky and lint-staged, `npm install --save-dev husky lint-staged`
+run `npx husky init`, and in .husky/pre-commit file, put this npx lint-staged
+in `package.json` , under "scripts", put this `"lint:html": "npx html-validate www/**/*.html",`, also add this 
+`"lint-staged": {
+		"www/**/*.html": [
+			"npm run lint:html"
+		]
+	}`
