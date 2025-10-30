@@ -1,4 +1,4 @@
-# How To Replicate the FILIPINO WOMEN Local Repo
+# How To Replicate the FILIPINO WOMEN Local Repo related to DevOps
 1. navigate to [filipino women github local repo](https://github.com/afafilo/filipino-women.com) and select local branch
 2. install husky and lint-staged, `npm install --save-dev husky lint-staged`
 3. run `npx husky init`, and in .husky/pre-commit file, put this `npx lint-staged`
