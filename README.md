@@ -12,8 +12,6 @@
 ## Update your github yml file
 
 1. please locate `{your-site}-local.yml` and `{your-site}-stagin.yml` at `.github/workflows` and kindly copy and paste the github workflow file
-	`` env:
-  		HUSKY: 0
 
 		jobs:
 		  build:
